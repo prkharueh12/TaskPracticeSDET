@@ -51,7 +51,7 @@ public class TCBS_1119_HardAlert {
 		Thread.sleep(2000);
 		
 		//enter name and accept
-		String myName = "Ronaldonho";
+		String myName = "Ronaldinho";
 		driver.switchTo().alert().sendKeys(myName);
 		driver.switchTo().alert().accept();
 		
